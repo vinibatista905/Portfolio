@@ -40,5 +40,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 2- Para iniciar a aplicação:
 > yarn dev
 
-
 ---
