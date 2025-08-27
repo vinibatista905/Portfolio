@@ -1,12 +1,18 @@
 import React from "react";
 import { CgWebsite, CgBriefcase } from "react-icons/cg";
-import { FaLaptopCode, FaRegUser } from "react-icons/fa";
+import { FaCode, FaLaptopCode, FaRegUser } from "react-icons/fa";
 
 import "./Web.scss";
 
 function Web() {
   return (
     <div className="web">
+      <div className="web-option">
+        <a href="#experience">
+          <CgBriefcase className="option-icon" />
+          Experiência
+        </a>
+      </div>
       <div className="web-option">
         <a href="#projects">
           <CgWebsite className="option-icon" />
@@ -15,13 +21,13 @@ function Web() {
       </div>
       <div className="web-option">
         <a href="#skills">
-          <FaLaptopCode className="option-icon" />
+          <FaCode className="option-icon" />
           Skills
         </a>
       </div>
       <div className="web-option">
         <a href="#work">
-          <CgBriefcase className="option-icon" />
+          <FaLaptopCode className="option-icon" />
           Serviços
         </a>
       </div>

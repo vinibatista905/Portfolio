@@ -1,7 +1,7 @@
 export const WorkData=[
     {
-        service: "Criação de Sites",
-        description: "Desenvolvimento de sites profissionais, sistemas web, blogs e lojas virtuais.",
+        service: "Criação de Sites e Sistemas",
+        description: "Desenvolvimento e manutenção de sites profissionais, sistemas web, blogs e lojas virtuais.",
         logo: require('../../assets/web.png').default,
     },
     {
@@ -10,7 +10,7 @@ export const WorkData=[
         logo: require('../../assets/smartphone.png').default,
     },
     {
-        service: "Código Semântico",
+        service: "SEO",
         description: "Estratégia e monitoração para seu negócio, fazendo com que seu site apareça cada vez melhor nas buscas.",
         logo: require('../../assets/code.png').default,
     },

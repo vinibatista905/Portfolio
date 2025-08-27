@@ -4,7 +4,7 @@ import './footer.scss';
 function Footer() {
     return (
         <div className='footer'>
-            <p>Criado com 🔥 por Vinicius Batista </p>
+            <p>Criado com ☕ por Vinicius Batista </p>
         </div>
     )
 }

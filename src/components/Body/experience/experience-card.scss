@@ -1,0 +1,74 @@
+.experience-card {
+  background: #fbfcfd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin: 1rem 0;
+
+  h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    span {
+      color: #6c63ff;
+      font-weight: 600;
+    }
+  }
+
+  .experience-title {
+    display: flex;
+    align-items: center;
+  }
+
+  .experience-link {
+    text-decoration: none;
+    margin-left: 8px;
+  }
+
+  .period {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    margin-bottom: 1rem;
+    color: #333;
+    white-space: pre-line;
+  }
+
+  .project-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    .project-title {
+        display: flex;
+        align-items: center;
+    }
+
+    .project-item {
+      margin-bottom: 1rem;
+
+      strong {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+      }
+
+      .tech-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+
+        .tech-badge {
+          background: #e6f4ea;
+          color: #2e7d32;
+          padding: 0.3rem 0.7rem;
+          border-radius: 8px;
+          font-size: 0.8rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

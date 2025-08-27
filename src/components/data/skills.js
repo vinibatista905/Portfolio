@@ -7,20 +7,24 @@ export const SkillsData = [
         icon: <i class="devicon-react-original colored"></i>,
       },
       {
+        name: "Angular",
+        icon: <i class="devicon-angularjs-plain colored"></i>,
+      },
+      {
         name: "Javascript",
         icon: <i class="devicon-javascript-plain colored"></i>,
       },
       {
-        name: "Typesctipt",
+        name: "Typescript",
         icon: <i class="devicon-typescript-plain colored"></i>,
       },
       {
         name: "Next.js",
-        icon: <i class="devicon-nextjs-original colored"></i>,
+        icon: <i class="devicon-nextjs-plain colored"></i>,
       },
       {
-        name: "Gatsby",
-        icon: <i class="devicon-gatsby-plain colored"></i>,
+        name: "jQuery",
+        icon: <i class="devicon-jquery-plain-wordmark colored"></i>,
       },
       {
         name: "HTML5",
@@ -35,6 +39,14 @@ export const SkillsData = [
         icon: <i class="devicon-sass-original colored"></i>,
       },
       {
+        name: "Tailwind CSS",
+        icon: <i class="devicon-tailwindcss-original colored"></i>,
+      },
+      {
+        name: "Styled Components",
+        icon: <i class="devicon-styledcomponents-plain-wordmark colored"></i>,
+      },
+      {
         name: "Bootstrap",
         icon: <i class="devicon-bootstrap-plain colored"></i>,
       },
@@ -47,11 +59,19 @@ export const SkillsData = [
         name: "NodeJS",
         icon: <i class="devicon-nodejs-plain colored"></i>,
       },
+      {
+        name: "Express",
+        icon: <i class="devicon-express-original-wordmark colored"></i>,
+      },
     ],
   },
   {
     type: "Banco de Dados",
     list: [
+      {
+        name: "MySQL",
+        icon: <i class="devicon-mysql-plain colored"></i>,
+      },
       {
         name: "MongoDB",
         icon: <i class="devicon-mongodb-plain colored"></i>,
