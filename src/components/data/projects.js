@@ -55,16 +55,6 @@ export const ProjectData = [
   },
   {
     id: 6,
-    title: "Magali Art's Laços",
-    about:
-      "Uma landing page criada para minha Magali Art's Laços divulgar seu trabalho artístico.",
-    tags: ["ReactJS", "React Hooks", "React Router", "Styled-Components"],
-    demo: "https://magali-arts-lacos.netlify.app/",
-    github: "https://github.com/vinibatista905/Magali-Arts-Lacos",
-    image: require("../../assets/project-6.png").default,
-  },
-  {
-    id: 7,
     title: "Crypto Tracker",
     about: "App para pesquisa de criptomoedas criado com Next.js.",
     tags: ["Next.js", "React Hooks", "Sass", "Coin Gecko API"],

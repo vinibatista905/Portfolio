@@ -6,6 +6,10 @@
     animation: Slide_Left 3s ease;
 }
 
+.projects-cards-container {
+    margin-top: 1.5rem;
+}
+
 @keyframes Slide_Left{
     0%{
         transform: translateX(-500px);

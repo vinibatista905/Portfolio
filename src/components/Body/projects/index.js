@@ -11,7 +11,7 @@ function Projects() {
         <div className='projects'>
             <Separator />
             <label className='section-title'>Projetos Pessoais</label>
-            <div>
+            <div className='projects-cards-container'>
                 {data.map((project) =>{
                     return <ProjectCard project={project} />
                 })}

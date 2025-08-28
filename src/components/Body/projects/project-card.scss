@@ -3,8 +3,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 16px 0px;
-  padding: 8px 0px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 12px;
+  background: var(--secondary-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 
   animation: Slide_Left 3s ease;
 }
@@ -34,7 +37,7 @@
   border-radius: 4px;
   margin-right: 6px;
   margin-bottom: 4px;
-
+  color: var(--card-text-color);
 }
 
 .project-links a {
@@ -47,12 +50,11 @@
   display: flex;
 }
 
-.project-link{
-
-  :hover{
-    background-color: #A745EA;
+.project-link {
+  :hover {
+    background-color: #a745ea;
     color: #fff;
-}
+  }
 }
 
 .link-button {
@@ -65,10 +67,11 @@
   border-radius: 4px;
   font-size: 16px;
   margin-right: 6px;
+  transition: all 0.3s ease;
 
-  :hover{
+  :hover {
     color: #fff;
-}
+  }
 }
 
 .icon {
@@ -76,7 +79,6 @@
   align-items: center;
   margin-right: 4px;
 }
-
 
 // RESPONSIVE
 @media only screen and (max-width: 720px) {
@@ -98,23 +100,22 @@
   }
 }
 
-
 // ANIMATIONS
 
-@keyframes Slide_Left{
-  0%{
-      transform: translateX(-500px);
+@keyframes Slide_Left {
+  0% {
+    transform: translateX(-500px);
   }
-  100%{
-      transform: translateY(0);
+  100% {
+    transform: translateY(0);
   }
 }
 
-@keyframes Slide_Right{
-  0%{
-      transform: translateX(500px);
+@keyframes Slide_Right {
+  0% {
+    transform: translateX(500px);
   }
-  100%{
-      transform: translateY(0);
+  100% {
+    transform: translateY(0);
   }
 }

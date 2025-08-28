@@ -9,7 +9,9 @@ function ExperienceCard({ index, experience }) {
         <h3>
           {experience.role} | <span>{experience.company}</span>
           <a href={experience.link} target="_blank" className="experience-link">
-            <IoIosLink />
+            <div className="experience-link-icon">
+              <IoIosLink />
+            </div>
           </a>
         </h3>
       </div>
@@ -22,7 +24,9 @@ function ExperienceCard({ index, experience }) {
             <div className="project-title">
               <strong>{proj.name}</strong>
               <a href={proj.link} target="_blank" className="experience-link">
-                <IoIosLink />
+                <div className="project-link-icon">
+                  <IoIosLink />
+                </div>
               </a>
             </div>
             <div className="tech-list">

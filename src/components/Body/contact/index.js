@@ -17,18 +17,18 @@ function Contact() {
           </p>
           <SocialContact />
         </div>
-        <div className="download">
-          <a
-            download
-            href={
-              require("../../../assets/CV - Vinicius Batista 2025.pdf").default
-            }
-            className="download-link"
-          >
+        <a
+          className="resume-link"
+          download
+          href={
+            require("../../../assets/CV - Vinicius Batista 2025.pdf").default
+          }
+        >
+          <div className="link-button">
             <AiOutlineCloudDownload className="cloud" />
             Baixar Currículo
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
     </div>
   );

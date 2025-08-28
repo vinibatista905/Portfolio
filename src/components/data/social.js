@@ -1,8 +1,8 @@
 export const SocialData = [
   {
-    platform: "Instagram",
-    link: "https://www.instagram.com/vinaobatista/",
-    icon: require("../../assets/instagram.png").default,
+    platform: "Linkedin",
+    link: "https://www.linkedin.com/in/vinicius-batista-0120016a/",
+    icon: require("../../assets/linkedin.png").default,
   },
   {
     platform: "Github",
@@ -10,14 +10,14 @@ export const SocialData = [
     icon: require("../../assets/github.png").default,
   },
   {
-    platform: "Linkedin",
-    link: "https://www.linkedin.com/in/vinicius-batista-0120016a/",
-    icon: require("../../assets/linkedin.png").default,
-  },
-  {
     platform: "Email",
     link: "mailto:vinicius-moura-batista@hotmail.com",
     icon: require("../../assets/email.png").default,
+  },
+  {
+    platform: "Instagram",
+    link: "https://www.instagram.com/vinaobatista/",
+    icon: require("../../assets/instagram.png").default,
   },
   {
     platform: "Twitter",

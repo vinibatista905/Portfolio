@@ -6,37 +6,27 @@ import "./Web.scss";
 
 function Web() {
   return (
-    <div className="web">
-      <div className="web-option">
-        <a href="#experience">
-          <CgBriefcase className="option-icon" />
-          Experiência
-        </a>
-      </div>
-      <div className="web-option">
-        <a href="#projects">
-          <CgWebsite className="option-icon" />
-          Projetos
-        </a>
-      </div>
-      <div className="web-option">
-        <a href="#skills">
-          <FaCode className="option-icon" />
-          Skills
-        </a>
-      </div>
-      <div className="web-option">
-        <a href="#work">
-          <FaLaptopCode className="option-icon" />
-          Serviços
-        </a>
-      </div>
-      <div className="web-option">
-        <a href="#contact">
-          <FaRegUser className="option-icon" />
-          Contato
-        </a>
-      </div>
+    <div className="web compact">
+      <a href="#experience">
+        <CgBriefcase className="option-icon" />
+        <span className="tooltip">Experiência</span>
+      </a>
+      <a href="#projects">
+        <CgWebsite className="option-icon" />
+        <span className="tooltip">Projetos</span>
+      </a>
+      <a href="#skills">
+        <FaCode className="option-icon" />
+        <span className="tooltip">Skills</span>
+      </a>
+      <a href="#work">
+        <FaLaptopCode className="option-icon" />
+        <span className="tooltip">Serviços</span>
+      </a>
+      <a href="#contact">
+        <FaRegUser className="option-icon" />
+        <span className="tooltip">Contato</span>
+      </a>
     </div>
   );
 }

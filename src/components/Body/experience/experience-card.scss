@@ -1,5 +1,5 @@
 .experience-card {
-  background: #fbfcfd;
+  background: var(--secondary-color);
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -7,11 +7,20 @@
 
   h3 {
     font-size: 1.3rem;
+    width: 100%;
     margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+
     span {
       color: #6c63ff;
       font-weight: 600;
     }
+  }
+
+  .experience-link-icon {
+    color: #6c63ff;
   }
 
   .experience-title {
@@ -24,15 +33,19 @@
     margin-left: 8px;
   }
 
+  .project-link-icon {
+    color: var(--text);
+  }
+
   .period {
     font-size: 0.9rem;
-    color: #555;
+    color: var(--text-neutral);
     margin-bottom: 1rem;
   }
 
   .description {
     margin-bottom: 1rem;
-    color: #333;
+    color: var(--secondary-text);
     white-space: pre-line;
   }
 
@@ -42,8 +55,8 @@
     margin: 0;
 
     .project-title {
-        display: flex;
-        align-items: center;
+      display: flex;
+      align-items: center;
     }
 
     .project-item {
@@ -61,8 +74,8 @@
         gap: 0.5rem;
 
         .tech-badge {
-          background: #e6f4ea;
-          color: #2e7d32;
+          background: var(--badge-background-color);
+          color: var(--badge-text-color);
           padding: 0.3rem 0.7rem;
           border-radius: 8px;
           font-size: 0.8rem;

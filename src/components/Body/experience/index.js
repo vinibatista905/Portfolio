@@ -11,7 +11,7 @@ function Experience() {
         <div className='experience'>
             <Separator />
             <label className='section-title'>Experiência</label>
-            <div>
+            <div className='experience-cards-container'>
                 {data.map((experience, index) =>{
                     return <ExperienceCard index={index} experience={experience} />
                 })}

@@ -2,6 +2,7 @@ import React from "react";
 import { CgBriefcase, CgWebsite } from "react-icons/cg";
 import { FaCode, FaLaptopCode, FaRegUser } from "react-icons/fa";
 import { RiCloseCircleLine } from "react-icons/ri";
+import ThemeToggle from "../../common/theme-toggle";
 
 import "./Mobile.scss";
 
@@ -9,6 +10,7 @@ function Mobile({ isOpen, setIsOpen }) {
   return (
     <div className="mobile">
       <div className="close-icon" onClick={() => setIsOpen(!isOpen)}>
+        <ThemeToggle />
         <RiCloseCircleLine />
       </div>
       <div className="mobile-options">
