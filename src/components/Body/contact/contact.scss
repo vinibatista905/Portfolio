@@ -32,7 +32,7 @@
   }
 }
 
-.link-button {
+.link-button-contact {
   padding: 16px;
   font-size: 24px;
   display: flex;
@@ -40,6 +40,9 @@
   align-items: center;
   border-radius: 6px;
   display: flex;
+  background-color: #92e3a9;
+  transition: all 0.3s ease;
+  
   :hover {
     color: #fff;
   }

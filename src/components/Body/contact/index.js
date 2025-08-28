@@ -24,7 +24,7 @@ function Contact() {
             require("../../../assets/CV - Vinicius Batista 2025.pdf").default
           }
         >
-          <div className="link-button">
+          <div className="link-button-contact">
             <AiOutlineCloudDownload className="cloud" />
             Baixar Currículo
           </div>
