@@ -1,17 +1,24 @@
-export const WorkData=[
-    {
-        service: "Criação de Sites e Sistemas",
-        description: "Desenvolvimento e manutenção de sites profissionais, sistemas web, blogs e lojas virtuais.",
-        logo: require('../../assets/web.png').default,
-    },
-    {
-        service: "Sites Responsivos",
-        description: "Criação de sites responsivos para a melhor visualização em todas as resoluções.",
-        logo: require('../../assets/smartphone.png').default,
-    },
-    {
-        service: "SEO",
-        description: "Estratégia e monitoração para seu negócio, fazendo com que seu site apareça cada vez melhor nas buscas.",
-        logo: require('../../assets/code.png').default,
-    },
-]
+import webIcon from "../../assets/web.png";
+import smartphoneIcon from "../../assets/smartphone.png";
+import codeIcon from "../../assets/code.png";
+
+export const WorkData = [
+  {
+    id: 1,
+    service: "work.websiteCreation.service",
+    description: "work.websiteCreation.description",
+    logo: webIcon,
+  },
+  {
+    id: 2,
+    service: "work.responsiveWebsites.service",
+    description: "work.responsiveWebsites.description",
+    logo: smartphoneIcon,
+  },
+  {
+    id: 3,
+    service: "work.seo.service",
+    description: "work.seo.description",
+    logo: codeIcon,
+  },
+];

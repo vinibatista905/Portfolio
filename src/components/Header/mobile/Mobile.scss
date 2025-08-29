@@ -38,6 +38,8 @@
   display: flex;
 }
 
-.option-icon {
-  margin-right: 8px;
+@media (max-width: 768px) {
+  .option-icon {
+    margin-right: 8px;
+  }
 }

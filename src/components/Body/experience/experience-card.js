@@ -1,13 +1,16 @@
 import React from "react";
 import { IoIosLink } from "react-icons/io";
+import { useTranslation } from "react-i18next";
 import "./experience-card.scss";
 
-function ExperienceCard({ index, experience }) {
+function ExperienceCard({ experience }) {
+  const { t } = useTranslation();
+
   return (
-    <div key={index} className="experience-card">
+    <div key={experience.id} className="experience-card">
       <div className="experience-title">
         <h3>
-          {experience.role} | <span>{experience.company}</span>
+          {t(experience.role)} | <span>{experience.company}</span>
           <a href={experience.link} target="_blank" className="experience-link">
             <div className="experience-link-icon">
               <IoIosLink />
@@ -15,14 +18,14 @@ function ExperienceCard({ index, experience }) {
           </a>
         </h3>
       </div>
-      <p className="period">{experience.period}</p>
-      <p className="description">{experience.description}</p>
+      <p className="period">{t(experience.period)}</p>
+      <p className="description">{t(experience.description)}</p>
 
       <ul className="project-list">
         {experience.projects.map((proj, idx) => (
           <li key={idx} className="project-item">
             <div className="project-title">
-              <strong>{proj.name}</strong>
+              <strong>{t(proj.name)}</strong>
               <a href={proj.link} target="_blank" className="experience-link">
                 <div className="project-link-icon">
                   <IoIosLink />

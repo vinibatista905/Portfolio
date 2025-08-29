@@ -5,6 +5,8 @@ import Mobile from "./mobile";
 import "./Header.scss";
 import { HiMenu } from "react-icons/hi";
 import ThemeToggle from "../common/theme-toggle";
+import LanguageSelector from "../common/language-selector";
+import codeIcon from "../../assets/code-2.png";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,16 +14,14 @@ function Header() {
   return (
     <div className="header">
       <div className="logo">
-        <img
-          className="logo-img"
-          src={require("../../assets/code-2.png").default}
-        />
+        <img className="logo-img" src={codeIcon} alt="Code" />
         Portfolio
       </div>
       <div className="menu">
         <div className="web-menu">
           <Web />
           <ThemeToggle />
+          <LanguageSelector />
         </div>
         <div className="mobile-menu">
           <div onClick={() => setIsOpen(!isOpen)}>

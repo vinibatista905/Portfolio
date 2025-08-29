@@ -1,0 +1,109 @@
+{
+  "header": {
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "work": "Services",
+    "contact": "Contact",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "about": {
+    "hello": "Hello",
+    "iam": "I am",
+    "iam_passionate": "I am passionate",
+    "about_web": "about web development."
+  },
+  "sections": {
+    "experience": "Experience",
+    "projects": "Personal Projects",
+    "skills": "Skills",
+    "work": "Services",
+    "contact": "Contact"
+  },
+  "experience": {
+    "frontend": {
+      "role": "Front-End Developer",
+      "company": "Wise Systems",
+      "period": "01/2022 - Currently",
+      "description": "Experience developing web applications for different clients, applying best practices, agile methodologies (Scrum) and responsive design.\n\n Main projects I developed/participated in:",
+      "projects": {
+        "re3ve": {
+          "name": "Re3ve (Furk Tech)"
+        },
+        "compliance": {
+          "name": "Compliance Portal (+Compliance)"
+        },
+        "innergy": {
+          "name": "Innergy RH (People For People)"
+        },
+        "oiana": {
+          "name": "OiAna"
+        },
+        "sebraeplace": {
+          "name": "Sebraeplace (Sebrae-PR)"
+        }
+      }
+    },
+    "trainee": {
+      "role": "Trainee",
+      "company": "Wise Systems",
+      "period": "09/2021 - 12/2021",
+      "description": "Development of the internal project 'Skillscat' (skills catalog) integrating web, mobile and back-end.",
+      "projects": {
+        "skillscat": {
+          "name": "Skillscat (Internal Project)"
+        }
+      }
+    }
+  },
+  "projects": {
+    "moneyTrees": {
+      "about": "Website of a fictitious virtual bank created with ReactJS."
+    },
+    "chatApp": {
+      "about": "A chat room application built with ReactJS and Chat Engine. To test, use the following accounts: Username: fulano / Password: 123123 ou Username: vinibatista / Password: 123123 "
+    },
+    "shoppingCart": {
+      "about": "My first application developed with a combination of React and Typescript. A simple shopping cart."
+    },
+    "explorix": {
+      "about": "A travel agency landing page using Gatsby."
+    },
+    "reactQuizApp": {
+      "about": "Quiz App created with React and Typescript."
+    },
+    "criptoTracker": {
+      "about": "Cryptocurrency research app built with Next.js."
+    }
+  },
+  "skills": {
+    "section": {
+      "frontEnd": "Front-End",
+      "backEnd": "Back-End",
+      "database": "Database"
+    }
+  },
+  "work": {
+    "websiteCreation": {
+      "service": "Website and System Creation",
+      "description": "Development and maintenance of professional websites, web systems, blogs and online stores."
+    },
+    "responsiveWebsites": {
+      "service": "Responsive Websites",
+      "description": "Creation of responsive websites for the best viewing in all resolutions."
+    },
+    "seo": {
+      "service": "SEO",
+      "description": "Strategy and monitoring for your business, making your website appear increasingly better in searches."
+    }
+  },
+  "contact": {
+    "description": "Want to get in touch? Contact me on any of the platforms.",
+    "resumeButton": "Download Resume"
+  },
+  "footer": {
+    "createdWith": "Created with ",
+    "by": "by Vinicius Batista"
+  }
+}

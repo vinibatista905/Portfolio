@@ -1,25 +1,25 @@
-import React from 'react';
-import './work.scss';
-import Separator from '../../common/separator';
-import { WorkData } from '../../data/work';
-import WorkCard from './work-card';
+import React from "react";
+import { useTranslation } from "react-i18next";
+import { WorkData } from "../../data/work";
+import Separator from "../../common/separator";
+import WorkCard from "./work-card";
+import "./work.scss";
 
 function Work() {
-    const data = WorkData;
+  const { t } = useTranslation();
+  const data = WorkData;
 
-    return (
-        <div className='work'>
-           <Separator />
-           <label className='section-title'>Serviços</label>
-           <div className='work-list'>
-            {data.map((item) =>{
-                return(
-                    <WorkCard item={item} />
-                )
-            })}
-           </div>
-        </div>
-    )
+  return (
+    <div className="work">
+      <Separator />
+      <label className="section-title">{t("sections.work")}</label>
+      <div className="work-list">
+        {data.map((item) => {
+          return <WorkCard key={item.id} item={item} />;
+        })}
+      </div>
+    </div>
+  );
 }
 
-export default Work
+export default Work;

@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.6rem 1.2rem;
+  padding: 1rem 0;
   backdrop-filter: blur(10px);
   background: var(--background);
   color: var(--neutral-color-2);
@@ -60,12 +60,14 @@
   }
 
   @media (max-width: 768px) {
+    padding: 1rem 0.8rem !important;
+    
     .web-menu {
       display: none;
     }
     .mobile-menu {
       display: block;
-      font-size: 1.5rem;
+      font-size: 1.7rem;
     }
   }
 }

@@ -1,0 +1,109 @@
+{
+  "header": {
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "skills": "Habilidades",
+    "work": "Serviços",
+    "contact": "Contato",
+    "light": "Claro",
+    "dark": "Escuro"
+  },
+  "about": {
+    "hello": "Olá",
+    "iam": "eu sou",
+    "iam_passionate": "Eu sou apaixonado ",
+    "about_web": "por desenvolvimento web."
+  },
+  "sections": {
+    "experience": "Experiência",
+    "projects": "Projetos Pessoais",
+    "skills": "Habilidades",
+    "work": "Serviços",
+    "contact": "Contato"
+  },
+  "experience": {
+    "frontend": {
+      "role": "Desenvolvedor Front-End",
+      "company": "Wise Systems",
+      "period": "01/2022 - Atualmente",
+      "description": "Atuação em desenvolvimento de aplicações web para diferentes clientes, aplicando boas práticas, metodologias ágeis (Scrum) e design responsivo.\n\n Principais projetos que desenvolvi/participei:",
+      "projects": {
+        "re3ve": {
+          "name": "Re3ve (Furk Tech)"
+        },
+        "compliance": {
+          "name": "Portal de Compliance (+Compliance)"
+        },
+        "innergy": {
+          "name": "Innergy RH (People For People)"
+        },
+        "oiana": {
+          "name": "OiAna"
+        },
+        "sebraeplace": {
+          "name": "Sebraeplace (Sebrae-PR)"
+        }
+      }
+    },
+    "trainee": {
+      "role": "Trainee",
+      "company": "Wise Systems",
+      "period": "09/2021 - 12/2021",
+      "description": "Desenvolvimento do projeto interno 'Skillscat' (catálogo de habilidades) integrando web, mobile e back-end.",
+      "projects": {
+        "skillscat": {
+          "name": "Skillscat (Projeto Interno)"
+        }
+      }
+    }
+  },
+  "projects": {
+    "moneyTrees": {
+      "about": "Website de um banco virtual fictício criado com ReactJS."
+    },
+    "chatApp": {
+      "about": "Uma aplicação de salas de chat criado com ReactJS e Chat Engine. Para testar utilize as seguintes contas: Username: fulano / Password: 123123 ou Username: vinibatista / Password: 123123 "
+    },
+    "shoppingCart": {
+      "about": "Minha primeira aplicação desenvolvida com React e Typescript combinados. Um simples carrinho de compras."
+    },
+    "explorix": {
+      "about": "Uma landing page de uma agência de viagens utilizando Gatsby"
+    },
+    "reactQuizApp": {
+      "about": "Quiz App criado com React e Typescript."
+    },
+    "criptoTracker": {
+      "about": "App para pesquisa de criptomoedas criado com Next.js."
+    }
+  },
+  "skills": {
+    "section": {
+      "frontEnd": "Front-End",
+      "backEnd": "Back-End",
+      "database": "Banco de Dados"
+    }
+  },
+  "work": {
+    "websiteCreation": {
+      "service": "Criação de Sites e Sistemas",
+      "description": "Desenvolvimento e manutenção de sites profissionais, sistemas web, blogs e lojas virtuais."
+    },
+    "responsiveWebsites": {
+      "service": "Sites Responsivos",
+      "description": "Criação de sites responsivos para a melhor visualização em todas as resoluções."
+    },
+    "seo": {
+      "service": "SEO",
+      "description": "Estratégia e monitoração para seu negócio, fazendo com que seu site apareça cada vez melhor nas buscas."
+    }
+  },
+  "contact": {
+    "description": "Deseja entrar em contato? Me contate em qualquer uma das plataformas.",
+    "resumeButton": "Baixar Currículo"
+  },
+  "footer": {
+    "createdWith": "Criado com ",
+    "by": "por Vinicius Batista"
+  }
+}

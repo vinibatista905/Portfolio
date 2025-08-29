@@ -1,28 +1,33 @@
+import project1 from "../../assets/project-1.png";
+import project2 from "../../assets/project-2.png";
+import project3 from "../../assets/project-3.png";
+import project4 from "../../assets/project-4.png";
+import project5 from "../../assets/project-5.png";
+import project7 from "../../assets/project-7.png";
+
 export const ProjectData = [
   {
     id: 1,
     title: "Money-Trees",
-    about: "Website de um banco virtual fictício criado com ReactJS.",
+    about: "projects.moneyTrees.about",
     tags: ["ReactJS", "React Hooks", "React Scroll", "Styled-Components"],
     demo: "https://money-trees.netlify.app/",
     github: "https://github.com/vinibatista905/Money-Trees",
-    image: require("../../assets/project-1.png").default,
+    image: project1,
   },
   {
     id: 2,
     title: "Chat App",
-    about:
-      "Uma aplicação de salas de chat criado com ReactJS e Chat Engine. Para testar utilize as seguintes contas: Username: fulano / Password: 123123 ou Username: vinibatista / Password: 123123 ",
+    about: "projects.chatApp.about",
     tags: ["ReactJS", "React Hooks", "Axios", "Chat Engine", "CSS"],
     demo: "https://vini-chat-app.netlify.app/",
     github: "https://github.com/vinibatista905/Chat-App",
-    image: require("../../assets/project-2.png").default,
+    image: project2,
   },
   {
     id: 3,
     title: "Shopping-Cart",
-    about:
-      "Minha primeira aplicação desenvolvida com React e Typescript combinados. Um simples carrinho de compras.",
+    about: "projects.shoppingCart.about",
     tags: [
       "ReactJS",
       "React Hooks",
@@ -33,33 +38,33 @@ export const ProjectData = [
     ],
     demo: "https://shopping-cart-react-ts-app.netlify.app/",
     github: "https://github.com/vinibatista905/Shopping-Cart",
-    image: require("../../assets/project-3.png").default,
+    image: project3,
   },
   {
     id: 4,
     title: "Explorix",
-    about: "Uma landing page de uma agência de viagens utilizando Gatsby.",
+    about: "projects.explorix.about",
     tags: ["ReactJS", "React Hooks", "Gatsby", "Styled-Components"],
     demo: "https://explorix-website.netlify.app/",
     github: "https://github.com/vinibatista905/Explorix",
-    image: require("../../assets/project-4.png").default,
+    image: project4,
   },
   {
     id: 5,
     title: "React Quiz App",
-    about: "Quiz App criado com React e Typescript.",
+    about: "projects.reactQuizApp.about",
     tags: ["ReactJS", "React Hooks", "Typescript", "Styled-Components"],
     demo: "https://react-quiz-app-2021.netlify.app/",
     github: "https://github.com/vinibatista905/React-Quiz-App",
-    image: require("../../assets/project-5.png").default,
+    image: project5,
   },
   {
     id: 6,
     title: "Crypto Tracker",
-    about: "App para pesquisa de criptomoedas criado com Next.js.",
+    about: "projects.criptoTracker.about",
     tags: ["Next.js", "React Hooks", "Sass", "Coin Gecko API"],
     demo: "https://github.com/vinibatista905/Crypto-Tracker",
     github: "https://github.com/vinibatista905/Crypto-Tracker",
-    image: require("../../assets/project-7.png").default,
+    image: project7,
   },
 ];

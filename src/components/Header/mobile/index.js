@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { CgBriefcase, CgWebsite } from "react-icons/cg";
 import { FaCode, FaLaptopCode, FaRegUser } from "react-icons/fa";
 import { RiCloseCircleLine } from "react-icons/ri";
@@ -7,6 +8,7 @@ import ThemeToggle from "../../common/theme-toggle";
 import "./Mobile.scss";
 
 function Mobile({ isOpen, setIsOpen }) {
+  const { t } = useTranslation();
   return (
     <div className="mobile">
       <div className="close-icon" onClick={() => setIsOpen(!isOpen)}>
@@ -17,31 +19,31 @@ function Mobile({ isOpen, setIsOpen }) {
         <div className="mobile-option">
           <a href="#experience">
             <CgBriefcase className="option-icon" />
-            Experiência
+            {t("header.experience")}
           </a>
         </div>
         <div className="mobile-option">
           <a href="#projects">
             <CgWebsite className="option-icon" />
-            Projetos
+            {t("header.projects")}
           </a>
         </div>
         <div className="mobile-option">
           <a href="#skills">
             <FaCode className="option-icon" />
-            Skills
+            {t("header.skills")}
           </a>
         </div>
         <div className="mobile-option">
           <a href="#work">
             <FaLaptopCode className="option-icon" />
-            Serviços
+            {t("header.work")}
           </a>
         </div>
         <div className="mobile-option">
           <a href="#contact">
             <FaRegUser className="option-icon" />
-            Contato
+            {t("header.contact")}
           </a>
         </div>
       </div>

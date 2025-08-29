@@ -1,84 +1,106 @@
 export const SkillsData = [
   {
-    type: "Front-End",
+    id: 1,
+    type: "skills.section.frontEnd",
     list: [
       {
+        id: 1,
         name: "ReactJS",
-        icon: <i class="devicon-react-original colored"></i>,
+        icon: <i className="devicon-react-original colored"></i>,
       },
       {
+        id: 2,
         name: "Angular",
-        icon: <i class="devicon-angularjs-plain colored"></i>,
+        icon: <i className="devicon-angularjs-plain colored"></i>,
       },
       {
+        id: 3,
         name: "Javascript",
-        icon: <i class="devicon-javascript-plain colored"></i>,
+        icon: <i className="devicon-javascript-plain colored"></i>,
       },
       {
+        id: 4,
         name: "Typescript",
-        icon: <i class="devicon-typescript-plain colored"></i>,
+        icon: <i className="devicon-typescript-plain colored"></i>,
       },
       {
+        id: 5,
         name: "Next.js",
-        icon: <i class="devicon-nextjs-plain colored"></i>,
+        icon: <i className="devicon-nextjs-plain colored"></i>,
       },
       {
+        id: 6,
         name: "jQuery",
-        icon: <i class="devicon-jquery-plain-wordmark colored"></i>,
+        icon: <i className="devicon-jquery-plain-wordmark colored"></i>,
       },
       {
+        id: 7,
         name: "HTML5",
-        icon: <i class="devicon-html5-plain colored"></i>,
+        icon: <i className="devicon-html5-plain colored"></i>,
       },
       {
+        id: 8,
         name: "CSS",
-        icon: <i class="devicon-css3-plain colored"></i>,
+        icon: <i className="devicon-css3-plain colored"></i>,
       },
       {
+        id: 9,
         name: "Sass",
-        icon: <i class="devicon-sass-original colored"></i>,
+        icon: <i className="devicon-sass-original colored"></i>,
       },
       {
+        id: 10,
         name: "Tailwind CSS",
-        icon: <i class="devicon-tailwindcss-original colored"></i>,
+        icon: <i className="devicon-tailwindcss-original colored"></i>,
       },
       {
+        id: 11,
         name: "Styled Components",
-        icon: <i class="devicon-styledcomponents-plain-wordmark colored"></i>,
+        icon: (
+          <i className="devicon-styledcomponents-plain-wordmark colored"></i>
+        ),
       },
       {
+        id: 12,
         name: "Bootstrap",
-        icon: <i class="devicon-bootstrap-plain colored"></i>,
+        icon: <i className="devicon-bootstrap-plain colored"></i>,
       },
     ],
   },
   {
-    type: "Back-End",
+    id: 2,
+    type: "skills.section.backEnd",
     list: [
       {
+        id: 1,
         name: "NodeJS",
-        icon: <i class="devicon-nodejs-plain colored"></i>,
+        icon: <i className="devicon-nodejs-plain colored"></i>,
       },
       {
+        id: 2,
         name: "Express",
-        icon: <i class="devicon-express-original-wordmark colored"></i>,
+        icon: <i className="devicon-express-original-wordmark colored"></i>,
       },
     ],
   },
   {
-    type: "Banco de Dados",
+    id: 3,
+    type: "skills.section.database",
     list: [
       {
+        id: 1,
         name: "MySQL",
-        icon: <i class="devicon-mysql-plain colored"></i>,
+        icon: <i className="devicon-mysql-plain colored"></i>,
       },
       {
+        id: 2,
         name: "MongoDB",
-        icon: <i class="devicon-mongodb-plain colored"></i>,
+        icon: <i className="devicon-mongodb-plain colored"></i>,
       },
       {
+        id: 3,
         name: "Firebase",
-        icon: <i class="devicon-firebase-plain colored"></i>,
+        icon: <i className="devicon-firebase-plain colored"></i>,
       },
     ],
   },

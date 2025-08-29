@@ -1,51 +1,51 @@
 export const ExperienceData = [
   {
-    role: "Desenvolvedor Front-End",
+    id: 1,
+    role: "experience.frontend.role",
     company: "Wise Systems",
-    period: "01/2022 - Atualmente",
+    period: "experience.frontend.period",
     link: "https://www.wises.com.br/",
-    description:
-      "Atuação em desenvolvimento de aplicações web para diferentes clientes, aplicando boas práticas, metodologias ágeis (Scrum) e design responsivo. \n\n Principais projetos que desenvolvi/participei:",
+    description: "experience.frontend.description",
     projects: [
       {
-        name: "Re3ve (Furk Tech)",
+        name: "experience.frontend.projects.re3ve.name",
         techs: ["ReactJS", "Tailwind", "Context API"],
         link: "https://www.furk.tech/pt/",
       },
       {
-        name: "Portal de Compliance (+Compliance)",
+        name: "experience.frontend.projects.sebraeplace.name",
+        techs: ["ReactJS", "GraphQL", "NestJS", "MongoDB"],
+        link: "https://sebraeplace.sebraepr.com.br/plataforma/",
+      },
+      {
+        name: "experience.frontend.projects.compliance.name",
         techs: ["ReactJS", "Material UI"],
         link: "https://maiscompliance.com.br/",
       },
       {
-        name: "Innergy RH (People For People)",
+        name: "experience.frontend.projects.innergy.name",
         techs: ["Angular 19", "Primeng", "SASS"],
         link: "https://peopleforpeople.pt/",
       },
       {
-        name: "OiAna",
+        name: "experience.frontend.projects.oiana.name",
         techs: ["AngularJS", "ReactJS", "jQuery", "SASS"],
         link: "https://oiana.com.br/",
-      },
-      {
-        name: "Sebraeplace (Sebrae-PR)",
-        techs: ["ReactJS", "GraphQL", "NestJS", "MongoDB"],
-        link: "https://sebraeplace.sebraepr.com.br/plataforma/"
-      },
+      }
     ],
   },
   {
-    role: "Trainee",
+    id: 2,
+    role: "experience.trainee.role",
     company: "Wise Systems",
-    period: "09/2021 - 12/2021",
+    period: "experience.trainee.period",
     link: "https://www.wises.com.br/",
-    description:
-      "Desenvolvimento do projeto interno 'Skillscat' (catálogo de habilidades) integrando web, mobile e back-end.",
+    description: "experience.trainee.description",
     projects: [
       {
-        name: "Skillscat (Projeto Interno)",
+        name: "experience.trainee.projects.skillscat.name",
         techs: ["ReactJS", "React Native", "Angular", "Node.js", "MySQL"],
-        link: "https://github.com/vinibatista905/Catalogo-de-Habilidades-Web"
+        link: "https://github.com/vinibatista905/Catalogo-de-Habilidades-Web",
       },
     ],
   },

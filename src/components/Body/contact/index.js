@@ -1,32 +1,27 @@
 import React from "react";
-import "./contact.scss";
+import { useTranslation } from "react-i18next";
 import Separator from "../../common/separator";
 import SocialContact from "../../common/social-contact";
 import { AiOutlineCloudDownload } from "react-icons/ai";
+import cvFile from "../../../assets/CV - Vinicius Batista 2025.pdf";
+import "./contact.scss";
 
 function Contact() {
+  const { t } = useTranslation();
+
   return (
     <div className="contact">
       <Separator />
-      <labe className="section-title">Contato</labe>
+      <label className="section-title">{t("sections.contact")}</label>
       <div className="contact-container">
         <div className="contact-left">
-          <p>
-            Deseja entrar em contato? Me contate em qualquer uma das
-            plataformas.
-          </p>
+          <p>{t("contact.description")}</p>
           <SocialContact />
         </div>
-        <a
-          className="resume-link"
-          download
-          href={
-            require("../../../assets/CV - Vinicius Batista 2025.pdf").default
-          }
-        >
+        <a className="resume-link" download href={cvFile}>
           <div className="link-button-contact">
             <AiOutlineCloudDownload className="cloud" />
-            Baixar Currículo
+            {t("contact.resumeButton")}
           </div>
         </a>
       </div>
