@@ -10,7 +10,9 @@ function ExperienceCard({ experience }) {
     <div key={experience.id} className="experience-card">
       <div className="experience-title">
         <h3>
-          {t(experience.role)} | <span>{experience.company}</span>
+          {t(experience.role)} 
+          <div className="divider" />{" "}
+          <span>{experience.company}</span>
           <a href={experience.link} target="_blank" className="experience-link">
             <div className="experience-link-icon">
               <IoIosLink />

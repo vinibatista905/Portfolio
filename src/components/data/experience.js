@@ -9,7 +9,7 @@ export const ExperienceData = [
     projects: [
       {
         name: "experience.frontend.projects.re3ve.name",
-        techs: ["ReactJS", "Tailwind", "Context API"],
+        techs: ["ReactJS", "Next.JS", "Tailwind", "Context API"],
         link: "https://www.furk.tech/pt/",
       },
       {
@@ -19,7 +19,7 @@ export const ExperienceData = [
       },
       {
         name: "experience.frontend.projects.compliance.name",
-        techs: ["ReactJS", "Material UI"],
+        techs: ["ReactJS", "Material UI", "Context API"],
         link: "https://maiscompliance.com.br/",
       },
       {

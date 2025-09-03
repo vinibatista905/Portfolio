@@ -1,4 +1,3 @@
-// src/components/ScrollToTop.jsx
 import React, { useState, useEffect } from "react";
 import { IoIosArrowUp } from "react-icons/io";
 import "./scroll-to-top.scss";

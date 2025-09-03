@@ -12,11 +12,20 @@
     display: flex;
     align-items: center;
     gap: 0.4rem;
+    flex-wrap: wrap;
 
     span {
       color: #6c63ff;
       font-weight: 600;
     }
+  }
+
+  .divider {
+    width: 2px;
+    background-color: var(--text);
+    margin: 2px 4px; 
+    border-radius: 4px;
+    align-self: stretch;
   }
 
   .experience-link-icon {

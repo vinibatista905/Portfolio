@@ -19,16 +19,7 @@
   --secondary-color: #2a2a2a;
   --secondary-color-hover: #3a3a3a;
   --badge-background-color: #c8e6c9;
-  --badge-text-color: #388e3c;
+  --badge-text-color: #265e28;
   --card-text-color: #000000;
   --name-highlight: #3a6bbd;
 }
-
-body {
-  margin: 0;
-  font-family: 'Work Sans', sans-serif;
-  background-color: var(--background);
-  color: var(--text);
-  transition: background 0.3s, color 0.3s;
-}
-

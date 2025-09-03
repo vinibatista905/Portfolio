@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import Separator from "../../common/separator";
 import SocialContact from "../../common/social-contact";
 import { AiOutlineCloudDownload } from "react-icons/ai";
-import cvFile from "../../../assets/CV - Vinicius Batista 2025.pdf";
+import cvFile from "../../../assets/CV - Vinicius Batista.pdf";
 import "./contact.scss";
 
 function Contact() {

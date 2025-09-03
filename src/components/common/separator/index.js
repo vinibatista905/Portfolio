@@ -1,12 +1,8 @@
-import React from 'react';
-import './separator.scss';
+import React from "react";
+import "./separator.scss";
 
 function Separator() {
-    return (
-        <div className='separator'>
-            
-        </div>
-    )
+  return <div className="separator"></div>;
 }
 
-export default Separator
+export default Separator;

@@ -1,20 +1,20 @@
-.projects{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+.projects {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 
-    animation: Slide_Left 3s ease;
+  animation: Slide_Left 3s ease;
 }
 
 .projects-cards-container {
-    margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
 
-@keyframes Slide_Left{
-    0%{
-        transform: translateX(-500px);
-    }
-    100%{
-        transform: translateY(0);
-    }
+@keyframes Slide_Left {
+  0% {
+    transform: translateX(-500px);
   }
+  100% {
+    transform: translateY(0);
+  }
+}
